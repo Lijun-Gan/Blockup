@@ -59,8 +59,10 @@ class SignupForm extends React.Component {
   
           window.open(window.location.href, "newWindow", "width=900, height=800, top=0 left=600")
           setTimeout(() => {
-            this.props.login(user[0]).then(this.props.history.push("/profile"))
-          }, 500);
+            this.props.logout()
+            this.props.login(user[0])
+            // this.props.login(user[0]).then(this.props.history.push("/profile"))
+          }, 1000);
   
           
         })
