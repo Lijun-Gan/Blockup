@@ -1,0 +1,4 @@
+{
+    "verbose": true,
+    "ignore": [ "*.png", "frontend/public/images", "README"]
+}

@@ -1,0 +1,353 @@
+body{ 
+    background: #dadbd3;
+    height: 100%;
+}  
+
+  #root{
+    background: #dadbd3;
+    /* height: 100%; */
+    /* height: auto; */
+  }
+
+.friends-container{
+    width: 95%;
+    background-color: #ededed;
+    margin: 0px auto;
+    /* margin-top: 50px; */
+    padding-bottom: 100px;
+    padding-right: 0;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+}
+
+.friends-title{
+    font-size: 28px;
+    margin: 35px;
+    font-weight: bold;
+}
+
+.individual-msg{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px grey solid;
+    align-items: center;
+}
+
+.friend-page-username{
+    width: 235px;
+    color: black;
+}
+
+.friend-page-lastest-msg{
+  width: 65%;
+  color: black;
+  font-family: cursive;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+a.msg-link {
+    text-decoration: none;
+    height: 31px;
+    margin-top: 22px;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.msg-button{
+    border: none;
+    text-decoration: none;
+    height: 31px;
+    margin-top: 5px;
+    font-size: 26px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.msg-button:hover{
+    background-color: #c7c5c5;
+}
+
+
+.msg-button .msgtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #c7c5c5;
+    color: red;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  }
+
+  .msg-button:hover .msgtext {
+    visibility: visible;
+    
+  }
+
+.right-container{
+    margin-left: auto;
+    width: 300px;
+}
+
+.request-receiver{
+    /* margin-bottom: 30px; */
+    padding-bottom: 20px;
+    border-bottom: grey solid 1px;
+    width: auto;
+    white-space: nowrap;
+    /* margin-left: auto; */
+    /* margin-right: 20px;  */
+    padding: 20px;
+    border-top-left-radius: 3px;
+    border-left:  grey solid 1px;
+    border-bottom: grey solid 1px;
+    border-top: grey solid 1px;
+}
+
+.request-sender{
+    /* margin-bottom: 30px; */
+    width: auto;
+    /* margin-left: auto; */
+    padding: 20px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    /* margin-right: 20px; */
+    border-top: grey solid 1px;
+    border-left:  grey solid 1px;
+    border-bottom: grey solid 1px;
+}
+
+.inner-container{
+    display: flex;
+}
+
+.all-requests{
+    font-weight: bold;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+
+.friendship-all-friends{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unfriend{
+    height: 22px;
+    width: 28px;
+    font-size: 11px;
+    margin-top: 10px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.unfriend:hover{
+    background-color: #c7c5c5;
+}
+
+
+.unfriend .unfriendtext {
+    visibility: hidden;
+    width: max-content;
+    background-color: #c7c5c5;
+    color: red;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 3px;
+    
+    margin-top: 4px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+
+  .unfriend:hover .unfriendtext  {
+    visibility: visible;
+    background-color: #c7c5c5;
+  }
+
+
+  
+.add-friend{
+  margin: 10px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.friend-id-delete{
+  border: grey 1px solid;
+  width: 208px;
+  background: white;
+  border-radius: 3px;
+  height: 29px;
+}
+
+.put-friend-id{
+  height: 23px;
+  padding-left: 6px;
+  width: 170px;
+  border: none;
+  padding-right: 5px;
+  border: transparent 1px solid;
+}
+.clear-text-friendship{
+  /* margin-left: auto;
+  margin-right: 10px; */
+  background: transparent;
+  font-size: 18px;
+  border: none;
+  border: transparent 1px solid;
+  /* position: absolute;
+  right: 63px; */
+}
+
+.clear-text-friendship:hover{
+  color: red;
+  font-weight: bolder;
+}
+
+.add-btn{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.id-error{
+    font-size: 12px;
+    color: red;    
+    padding-bottom: 0px;
+}
+
+.add-friend-p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.add-friend-note{
+    font-size: 11px;
+    color: #a49b9b;
+    padding-top: 0px;
+    width: 225px;
+}
+
+  /*  &&&&&&&&&&& */
+
+  .unfriend-modal{
+    display: none; 
+    position: fixed; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  
+.delete-room-modal{
+    display: none; 
+    position: fixed; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  
+.unfriend-modal-sent{
+
+    font-size: 16px;
+    margin: 30px 22px;
+  }
+
+  .unfriend-modal-container{
+      background: white;
+      
+      width: 360px;
+      height: 180px;
+  }
+  
+  .close-unfriend-modal{
+    color: #aaaaaa;
+    float: right;
+    font-size: 26px;
+    padding: 5px 12px;
+  }
+  
+  .close-unfriend-modal:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .unfriend-btn{
+    margin: 0px 16%;
+  }
+
+  .unfriend-btn:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+
+
+  
+  .user-pic-friendship{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+  }
+
+  .user-pic-friendrequest{
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+  }
+
+  .friendrequest-img-username{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .friendrequest-container{
+    margin-bottom: 15px;
+  }
+
+  .delete-request{
+    margin-left: 40px;
+  }
+

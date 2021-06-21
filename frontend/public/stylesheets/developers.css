@@ -1,0 +1,63 @@
+#developers-icon{
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 90%;
+    position: absolute;
+    margin-bottom: auto;
+}
+
+#developers-icon:hover{
+    color: rgb(209, 206, 206);
+}
+
+#developers-icon-after-signin{
+    font-size: 13px;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 51%;
+}
+
+.developers-container-outer{
+    width: 80%;
+    background-color: #ededed;
+    margin: 0px auto;
+    /* margin-top: 50px; */
+    padding-bottom: 100px;
+    padding-right: 0;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+}
+
+.developers-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.individual-container{
+    height: 400px;
+    width: 450px;
+
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.developer-pic{
+    height: 180px;
+    width: 150px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.development-team{
+    margin: 10px 20px 0px 20px;
+    padding-bottom: 0px;
+}
+
+.developer-links{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: black;
+}

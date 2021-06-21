@@ -1,0 +1,59 @@
+
+#videos-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-auto-rows: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 1160px; */
+    /* margin-left: auto; */
+    /* margin-right: auto;   */
+  }
+  
+  video {
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+
+    width: 380px;
+    height: 360px;
+    padding: 0 20px;
+    border: 1px solid black;
+    background-image: url("../audio.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+  .video-username{
+    position: relative;
+    margin-top: 88px;
+    /* margin-left: 200px; */
+    font-size: 28px;
+    left: 150px;
+     
+  }
+
+  .friend-video-username{
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    top: 32px;
+    padding: 0px;
+
+  }
+
+  .leave-meeting{
+    height: 32px;
+    font-size: 16px;
+    /* margin-top: 10px;
+    margin-bottom: 30px; */
+    margin-left: 80%;
+  }
+
+  .video-div{
+    margin: 0 10px;
+  }

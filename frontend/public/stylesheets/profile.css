@@ -1,0 +1,44 @@
+.profile {
+    background:  #dadbd3;
+    height: auto;
+}
+.profilebody {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-color: #ededed;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    height: auto;
+    width: max(35vw, 350px);
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.profile-pic{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+    margin: 26px 0px;
+}
+
+.uploadPic{
+    margin: 20px 0px;
+}
+
+.profile-2f-verified {
+    font-size: 13px;
+    color: green;
+}
+
+.profile-2f-unverified {
+    font-size: 13px;
+    color: red;
+}

@@ -1,0 +1,18 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import "./reset.css";
+@import "./variables.css";
+@import "./main_page.css";
+@import "./nav.css";
+@import "./signup.css";
+@import "./rooms.css";
+@import "./twofa.css";
+@import "./friends_page.css";
+@import "./video_audio_page.css";
+@import "./chatbox.css";
+@import "./sideroomindex.css";
+@import "./sideroomitem.css";
+/* @import "/webapp.css"; */
+@import "./webappbody.css";
+@import "./profile.css";
+@import "./developers.css";
+

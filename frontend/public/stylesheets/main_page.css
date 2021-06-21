@@ -1,0 +1,149 @@
+/* @import "variables"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+.main-page {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+i {
+  color: gray;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+i:hover {
+  color: #3b3a30;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: whitesmoke;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+input,
+button,
+label,
+form {
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.main-page footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  color: #3b3a30;
+  font-family: -webkit-pictograph;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* .footer {
+  display: flex;
+  bottom: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+.main-text {
+  margin: 0;
+  padding: 0;
+  font-size: 55px;
+}
+
+.main-logo {
+  font-size: 400px;
+  color: #3b3a30;
+}
+
+.demo-users{
+  margin-top: 20px;
+  margin-left: 75%;
+}
+
+.demouser1{
+  margin: 0px 80px;
+}
+
+.demouser2{
+  margin: 0px 80px;
+}
+
+.two-accounts{
+  margin: 0px 80px;
+  width: 92px;
+  height: 22px;
+}
+
+.login-noti{
+  font-size: 13px;
+  margin-top: 30px;
+  color: rgb(160, 157, 157);
+}
+
+.or{
+  font-size: 14px;
+  margin: 0px 120px;
+  padding: 0px;
+}
