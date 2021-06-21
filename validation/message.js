@@ -6,8 +6,8 @@ module.exports = function validateMessageInput(data) {
 
     data.content = validText(data.content) ? data.content : '';
 
-    if (!Validator.isLength(data.content, { min: 1, max: 140 })) {
-        errors.text = 'Message must be between 1 and 140 characters';
+    if (!Validator.isLength(data.content, { min: 1, max: 300 })) {
+        errors.text = 'Message must be between 1 and 300 characters';
     }
 
     if (Validator.isEmpty(data.content)) {
