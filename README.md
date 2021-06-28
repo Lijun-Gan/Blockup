@@ -2,9 +2,19 @@
 
 ![Blockup](README_assets/chatPage.png)
 
+
 Blockup is a communication app built with the MERN stack (MongoDB | Express | React | Node.js) and hosted on Heroku. Technologies include: two factor authentication, AWS S3, WebRTC, Web Speech, Socket.IO, MongoDB, Mongoose, Express.js, React, Redux, Node.js, HTML5, CSS, JavaScript, Webpack, Heroku, Git, and Github.
 
 # <p align="center"> [Check Out the Live App!][1] </p>
+
+## Table of Contents
+
+* [Two-Factor Authentication](#Two-Factor-Authentication)
+* [Friending](#Friending)
+* [Mutiple Chat Rooms](#Reviews)
+* [Live Messaging](#Live-Messaging)
+* [Video/Audio Chat](#Video/Audio-Chat )
+* [Profile Picture Uploading](#Profile-icture-Uploading)
 
 ## Two-Factor Authentication
 ![TwoFAuthentication](README_assets/twoFAuthentication.png)
