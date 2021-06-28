@@ -13,8 +13,8 @@ Blockup is a communication app built with the MERN stack (MongoDB | Express | Re
 * [Friending](#Friending)
 * [Mutiple Chat Rooms](#Reviews)
 * [Live Messaging](#Live-Messaging)
-* [Video/Audio Chat](#Video/Audio-Chat )
-* [Profile Picture Uploading](#Profile-icture-Uploading)
+* [Video/Audio Chat](#VideoAudio-Chat )
+* [Profile Picture Uploading](#Profile-Picture-Uploading)
 
 ## Two-Factor Authentication
 ![TwoFAuthentication](README_assets/twoFAuthentication.png)
