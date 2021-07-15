@@ -8,6 +8,17 @@ class Developers extends React.Component {
 
         <div className="developers-container">
 
+          <div className="individual-container">
+
+            <h3>Lijun Gan</h3>
+            <img src="lijun_gan.png" alt="Lijun Gan" className="developer-pic"/>
+            <p>Blockup id: 60633293e2e3a540721cb55d</p>
+            <a target="_blank" className="developer-links" href="mailto:gan.lijun.glj@gmail.com" >gan.lijun.glj@gmail.com</a>
+            {/* <p>Email: gan.lijun.glj@gmail.com</p> */}
+            <a target="_blank" className="developer-links" href="https://github.com/Lijun-Gan">Github: https://github.com/Lijun-Gan</a>
+            <a target="_blank" className="developer-links" href="https://www.linkedin.com/in/lijun-gan/">Linkedin: https://www.linkedin.com/in/lijun-gan/</a>
+
+          </div>
 
             <div className="individual-container">
                 <h3>Adam Kamboj</h3>
@@ -41,18 +52,6 @@ class Developers extends React.Component {
                 <a className="developer-links" href="https://www.linkedin.com/in/jaspreet-singh-software-engineer/">Linkedin: https://www.linkedin.com/in/jaspreet-singh-software-engineer/</a>
                
             </div>
-
-            <div className="individual-container">
-
-                <h3>Lijun Gan</h3>
-                <img src="lijun_gan.png" alt="Lijun Gan" className="developer-pic"/>
-                <p>Blockup id: 60633293e2e3a540721cb55d</p>
-                <p>Email: gan.lijun.glj@gmail.com</p>
-                <a className="developer-links" href="https://github.com/Lijun-Gan">Github: https://github.com/Lijun-Gan</a>
-                <a className="developer-links" href="https://www.linkedin.com/in/lijun-gan/">Linkedin: https://www.linkedin.com/in/lijun-gan/</a>
-               
-            </div>
-
 
           </div>
       </div>
