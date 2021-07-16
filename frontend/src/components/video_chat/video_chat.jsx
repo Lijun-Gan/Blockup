@@ -43,6 +43,7 @@ export class VideoChat extends React.Component {
       }).then(stream => {
 
         const myVideo = document.createElement('video')
+        myVideo.playsinline = true;
          
         this.addVideoStream(myVideo, stream, this.props.user.id)
       
@@ -59,7 +60,7 @@ export class VideoChat extends React.Component {
           call.answer(stream)
 
           const video = document.createElement('video')
-        
+          video.playsinline = true;
           call.on('stream', userVideoStream => {
             this.addVideoStream(video, userVideoStream,call.peer)
           })
@@ -101,6 +102,7 @@ export class VideoChat extends React.Component {
     
       const call = this.myPeer.call(userId, stream)
       const video = document.createElement('video')
+      video.playsinline = true;
 
       call.on('stream', userVideoStream => {
 
@@ -188,6 +190,8 @@ export class VideoChat extends React.Component {
         // window.location.reload();
         const video = document.querySelector('video');
   
+        video.playsinline = true;
+
         const mediaStream = video.srcObject;
         const tracks = mediaStream.getTracks();
         tracks.forEach(track => track.stop())
