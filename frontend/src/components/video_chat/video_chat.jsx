@@ -43,7 +43,8 @@ export class VideoChat extends React.Component {
       }).then(stream => {
 
         const myVideo = document.createElement('video')
-        myVideo.playsinline = true;
+        myVideo.setAttribute('webkit-playsinline', 'webkit-playsinline');
+        myVideo.setAttribute('playsinline', 'playsinline');
          
         this.addVideoStream(myVideo, stream, this.props.user.id)
       
@@ -60,7 +61,9 @@ export class VideoChat extends React.Component {
           call.answer(stream)
 
           const video = document.createElement('video')
-          video.playsinline = true;
+          video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+          video.setAttribute('playsinline', 'playsinline');
+
           call.on('stream', userVideoStream => {
             this.addVideoStream(video, userVideoStream,call.peer)
           })
@@ -102,7 +105,9 @@ export class VideoChat extends React.Component {
     
       const call = this.myPeer.call(userId, stream)
       const video = document.createElement('video')
-      video.playsinline = true;
+      
+      video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+      video.setAttribute('playsinline', 'playsinline');
 
       call.on('stream', userVideoStream => {
 
@@ -190,7 +195,8 @@ export class VideoChat extends React.Component {
         // window.location.reload();
         const video = document.querySelector('video');
   
-        video.playsinline = true;
+        video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+        video.setAttribute('playsinline', 'playsinline');
 
         const mediaStream = video.srcObject;
         const tracks = mediaStream.getTracks();

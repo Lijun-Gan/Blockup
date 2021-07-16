@@ -177,7 +177,8 @@ Blockup users can join/exit the video chat or voice chat whenever they want.
           call.answer(stream)
 
           const video = document.createElement('video')
-          video.playsinline = true;
+          video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+          video.setAttribute('playsinline', 'playsinline');
         
           call.on('stream', userVideoStream => {
             this.addVideoStream(video, userVideoStream,call.peer)
