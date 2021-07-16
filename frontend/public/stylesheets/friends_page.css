@@ -1,5 +1,5 @@
 body{ 
-    background: #dadbd3;
+    /* background: #dadbd3; */
     height: 100%;
 }  
 
@@ -198,7 +198,7 @@ a.msg-link {
   width: 208px;
   background: white;
   border-radius: 3px;
-  height: 29px;
+  min-height: 29px;
 }
 
 .put-friend-id{
@@ -208,6 +208,7 @@ a.msg-link {
   border: none;
   padding-right: 5px;
   border: transparent 1px solid;
+  padding-top: 5px;
 }
 .clear-text-friendship{
   /* margin-left: auto;
